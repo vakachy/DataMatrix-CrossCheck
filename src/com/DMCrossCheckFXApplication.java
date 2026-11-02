@@ -22,14 +22,10 @@ public class DMCrossCheckFXApplication extends Application {
 
         Presenter presenter = new Presenter(model, view, alert);
 
-
-
         stage.setScene(root);
         stage.centerOnScreen();
         stage.setTitle("Поиск дубликатов кодов DataMatrix");
         stage.setResizable(false);
         stage.show();
-
-//        presenter.checkResult();
     }
 }

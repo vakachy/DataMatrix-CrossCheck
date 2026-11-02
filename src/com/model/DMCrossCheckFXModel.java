@@ -9,6 +9,7 @@ import javafx.beans.property.StringProperty;
 public class DMCrossCheckFXModel {
 
     // Константы пишутся в UPPER_CASE и обычно делаются static
+    // Report file name
     public static final String REPORT_FILE_NAME = "\\report.txt";
 
     // Свойства JavaFX (Properties)
